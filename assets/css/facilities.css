@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.facili_bann{
+    height: 280px;  
+}   
+.libut button:hover{
+    color: #933993;
+    background-color: #f8f9fa;
+    border:none
+}
+.vignancl1img1{
+    background-image: url("/assets/uploads/images/vignanwififacility.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-left: -15px;
+    width: 100%;
+}
+.vignancl1img{
+    background-image: url("/assets/uploads/images/vignanlibrary.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-left: -15px;
+    width: 100%; 
+}
+.vignancl1img3{
+    background-image: url("/assets/uploads/images/vignancanteen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-left: -15px;
+    width: 100%;  
+}
+.vignancl1img4 {
+    background-image: url("/assets/uploads/images/vignantransportation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-right: -15px;
+    width: 100%;  
+}
+.horiz{
+    border-bottom: 5px solid #00adef;
+    width: 60%;
+}
+.mediaimg:hover{
+    filter: brightness(50%);
+}
+.vignancl1img3:hover{
+    filter: brightness(50%);
+}
+.maintabtns:hover{
+    background-color: #933993;
+    color: #f8f9fa;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:427px) {
+    .vignancl1img{
+        /* background-image: url("/assets/uploads/images/vignanlibrary.jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        margin-left: 0px;
+        /* width: 9000px;  */
+    }
+    
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .hostelimg{
+       height: 800px;
+       width: 100%;
+    }
+    
+}
+
+
+
+/* footer */
+.fotcol a {
+    color: grey;
+}
+.fotcol a:hover{
+ color: aliceblue;
+}
+.ft-phon:hover{
+    color: aliceblue;
+}
+.ft-emails:hover{
+    color: aliceblue;
+}
+.loglinkmove a:hover{
+    transform: translate(17px, 0px);
+    transition-duration: 600ms;
+}   
+.fthr{
+    color:cyan;
+   border-bottom: 3px solid cyan;}
+.footericon{
+    background-color: cyan;}
+
+
+/* header */
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+.navbar-collapse>ul>li>a {
+    font-weight: bold;
+}
+
+.navbar-collapse>ul>li>a:hover {
+    border-bottom: 5px solid #933993;
+}
+
+.nav-styling1 {
+    display: none;
+    list-style-type: none;
+}
+
+.nav-styling1:hover {
+    display: block;
+    color: black;
+}
+
+.header-top {
+    background-color: #933993;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1025px) {
+    .btn-close {
+        display: none;
+    }
+
+    .navbar-nav>li>a {
+        font-weight: bold;
+        margin-left: 25px;
+    }
+
+    .navbar-brand>img {
+        margin-left: 100px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .navbar-brand>img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navbar-nav>li>a {
+        font-weight: bold;
+
+    }
+
+    .navbar-collapse>ul>li>a {
+        padding-right: 10px;
+        font-size: smaller;
+    }
+
+    .nav-link>a {
+        padding-right: 10px;
+    }
+
+    .btn-close {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+
+    .header-top {
+        font-size: smaller;
+        display: none;
+    }
+
+}
+
+
+
+
+    
+    

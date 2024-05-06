@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .carousel-control-prev ,.carousel-control-next{
+    height: 70px;
+    width: 70px;
+    outline: black;
+    background-color: rgb(0, 208, 255);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: width 1s linear 0s;
+}
+
+.carousel-control-prev:hover{
+    width: 100px;
+}
+.carousel-control-next:hover{
+    width: 100px;
+} */
+
+.icon-container{
+    border-radius: 5px;
+    
+}
+.top-icons>h4{
+    color: #933993;
+}
+.top-icons caption{
+    font-weight: bold;
+    color: #747474;
+}
+.certifications{
+    background-color: #1b2434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    .our-journey{
+        font-size: x-large;
+    }
+    /* .image-fluid{
+        width: 450px;
+    } */
+    
+}

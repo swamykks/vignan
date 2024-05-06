@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academic Calender</title>
+  <link rel="icon" type="image/x-icon" href="/assets/uploads/logo/images.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/academiccalender.css">
+</head>
+
+<body>
+  <!-- header -->
+  <div class="container-fluid header-top pt-2">
+    <div class="container text-white fw-bold">
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <p><i class="bi bi-envelope pe-2"></i>info@vignanits.ac.in </p>
+        </div>
+        <div class="col-lg-2 col-md-4 telephone">
+          <p><i class="bi bi-telephone"></i>123-456-789</p>
+        </div>
+        <div class="col-lg-5 text-center d-lg-flex d-sm-none d-md-none top-icon">
+          <i class="bi bi-facebook pe-2"></i>
+          <i class="bi bi-youtube pe-2"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <p> NIRF-2024</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg  bg-white sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><img src="/assets/uploads/logo/vignan logo.png" alt="" width="200px"
+          height="auto"></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="offcanvas offcanvas-end ps-3" id="navbarNavDropdown">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+
+            <a class="nav-link active " aria-current="page" href="/index.html">Home</a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="/academiccalender.html" data-bs-toggle="dropdown" aria-expanded="false">
+              Academics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="/academiccalender.html">Academic Calender</a></li>
+              
+              <li><a class="dropdown-item" href="/academicregulation.html">Academic Regulation</a></li>
+              <li><a class="dropdown-item" href="/academicsyllabus.html">Syllabus</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Departments &raquo; </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="/civilengineering.html">Civil Engineering</a>
+                  </li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="/about as.html" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/about as.html">About VGNT</a></li>
+                <li><a class="dropdown-item" href="#chairman">Chairman</a></li>
+                <li><a class="dropdown-item" href="#ceo">CEO</a></li>
+                <li><a class="dropdown-item" href="#principal"> Principal</a></li>
+                <li><a class="dropdown-item" href="#Vision">Vision & Mission</a></li>
+                <li><a class="dropdown-item" href="#governing">Governing Body</a></li>
+                <li><a class="dropdown-item" href="#core">Core Values</a></li>
+                <li><a class="dropdown-item" href="#organogram">Organogram</a></li>
+            </ul>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="/admission.html" data-bs-toggle="dropdown" aria-expanded="false">
+              Admisions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/admission.html">About</a></li>
+              <li><a class="dropdown-item" href="#courseoffered">Course Offered</a></li>
+              <li><a class="dropdown-item" href="#eligibilitycriteria">Eligibility Criteria</a></li>
+              <li><a class="dropdown-item" href="#feestructure">Fee Structure</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="/placement.html" data-bs-toggle="dropdown" aria-expanded="false">
+              Placements
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/placement.html">About Placement</a></li>      
+              <li><a class="dropdown-item" href="#coordinators">Coordinators</a></li>
+              <li><a class="dropdown-item" href="#statistics">Placement Statistics</a></li>
+              <li><a class="dropdown-item" href="#infrastructure">Placement Infrastructure</a></li>
+              <li><a class="dropdown-item" href="#training">Training</a></li>
+              <li><a class="dropdown-item" href="#our">Our Recruiters</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="/facilities.html" data-bs-toggle="dropdown" aria-expanded="false">
+              Facilities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/facilities.html">Vignan Dhara</a></li>   
+             <li><a class="dropdown-item" href="#wifi">ICT Facilities</a></li>
+              <li><a class="dropdown-item" href="#cmp">Computer Center</a></li>
+              <li><a class="dropdown-item" href="#comm">Communication & Soft Skills</a></li>
+              <li><a class="dropdown-item" href="#caf">Cafeteria</a></li>
+              <li><a class="dropdown-item" href="#tran">Transportation</a></li>
+              <li><a class="dropdown-item" href="#hostel">Hostel</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/research.html">Research & Consultancy</a>
+          </li>
+          
+          
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- calender html -->
+  <div class="bg-container">
+    <div class="container position-relative" id="postion1">
+      <div class="row">
+        <div class="col position-absolute" id="center">
+          <p class="text-info fs-4">Vignan Institute</p>
+          <h1 class="fw-bold text-white">ACADEMIC CALENDERS</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row m-3">
+      <div class="col">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item " ><a href="/index.html" class="text-decoration-none colorfor"id="hovertext" >Vignan
+                Institute of Technology and Science</a></li>
+            <li class="breadcrumb-item active text-primary-emphasis " aria-current="page">Academic Calender</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row m-3 d-flex">
+      <h2 class="heading rounded  pb-2 mb-4 border-bottom border-info border-4"><strong>ACADEMIC CALENDERS</strong></h2>
+      <div class=" col-lg-10 col-md-10 col-sm-12">
+        <p class="h5 pt-5 ">Academic Calendars for I Year B.Tech I & II Semester, I Year M.Tech I & II Semester
+          for the AY: 2023-2024</p>
+      </div>
+      <div class=" col-lg-2 col-md-2 pt-5 pb-5 col-sm-12 "><a href=""><button class="fw-bold p-2  button rounded  border border-2 border-black">Download</button> </a></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row g-4 m-3">
+      <div>
+        <h2 class="heading1 rounded pb-2 mb-4 border-bottom border-info border-4"><strong>JNTUH- UNIVERSITY ACADEMIC CALENDERS</strong></h2>
+      </div>
+
+      <div class=" d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+        
+      </div>
+      <div class=" d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class=" h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12" >
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class="d-flex flex-row mb-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+  </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row g-4 m-4">
+      <div>
+        <h4 class="ps-1"><strong>INSTITUTE ACADEMIC CALENDER</strong></h4>
+      </div>
+
+      <div class=" d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class="d-flex flex-row mt-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12" >
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row mb-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+      <div class=" d-flex flex-row mb-5 col-lg-4 col-md-6 col-sm-12">
+        <p class="h5">Academic Year 2022-2023</p>
+        <a href=""><button class="fw-bold p-2 ms-5 button rounded  border border-2 border-black">Download</button></a>
+      </div>
+  </div>
+  </div>
+
+    
+    <!-- accodian -->
+
+      <div class="container-fluid">
+        <div class="row mx-3">
+          <div class="col">
+            <h2 class="heading3 rounded  pb-2 mb-4 border-bottom border-info border-4 w-50"><strong>DEPARTMENT ACADEMIC CALENDARS</strong></h2>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col">
+            <div class="accordion " id="accordionExample">
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="buttonacc">
+                    Civil Engineering
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="buttonacc1">
+                    Electrical And Electronics Engineering
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="buttonacc2">
+                    Mechanical Engineering
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour" id="buttonacc3">
+                    Electrical and Communication Engineering
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive" id="buttonacc4">
+                    Computer Science & Engineering
+                  </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed  fs-5 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix" id="buttonacc5">
+                    Electronics & Instrumentation Engineering
+                  </button>
+                </h2>
+                <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Academic Year 2020-21</strong></li>
+                      <li><strong>Academic Year 2019-20</strong></li>
+                      <li><strong>Academic Year 2018-19</strong></li>
+                      <li><strong>Academic Year 2017-18</strong></li>
+                      <li><strong>Academic Year 2016-17</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- footer -->
+      <footer class=" ">
+
+        <div class="container-fluid text-center bg-dark px-4 pt-5">
+            <div class="row m-auto">
+                <div class=" fotcol  col-lg-3 col-sm-12 col-md-4 mt-4">
+                    <img src="/assets/uploads/logo/footervignanlogo.png" alt="" class="img-thumbnail">
+                    <p class="mt-md-5 mt-3 text-start">Deshmukhi(V),Pochampally(M),
+                        Yadadri-Bhuvanagiri District,
+                        Telangana,508284.</p>
+      
+                    <h6 class="text-start mt-md-5 mt-3 text-light">Tel:</h6>
+                    <p class="text-start ft-phon"><a href=""> 08685-226128</a>, <a href="">9866399776/ 861</a></p>
+      
+                    <h6 class="text-start text-light">Email:</h6>
+                    <p class="text-start ft-emails"> <a href="">principal.vgnt89@gmail.com</a>,
+                    <a href=""> principal.vits@gmail.com</a>,
+                    <a href=""> principal.vgnt@vignanits.ac.in</a>
+                </p>
+      
+                    <hr class="fthr">
+                </div>
+                <div class=" text-start fotcol text-secondary col-lg-3 col-sm-12 col-md-4 mt-2">
+                    <h5 class="mt-2 text-light">More Links</h5>
+                    <hr class="fthr">
+                    <span>
+                        <a href="" class="text-decoration-none d-block mt-4  ">Student Start-Ups & Careers</a>
+                        <a href="" class="text-decoration-none d-block mt-2">VGNT In Media</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Industrial Consultancy Bureau</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Professional Bodies</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Institutional Values and Best Practices</a>
+                        <a href="" class="text-decoration-none d-block mt-2">EDC Centre</a>
+                        <a href="" class="text-decoration-none d-block mt-2">News Letters</a>
+                        <a href="" class="text-decoration-none d-block mt-2">NIRF(AY: 2023-24)</a>
+      
+                        <a href="" class="text-decoration-none d-block mt-2">ARIIA</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Alumni</a>
+                        <a href="" class="text-decoration-none d-block mt-2">IT Policy</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Maintenance Policy</a>
+                        <a href="" class="text-decoration-none d-block mt-2">Blog
+                        </a>
+      
+                </div>
+                <div class=" text-start fotcol col-lg-3 col-sm-12 col-md-4 mt-2">
+                    <h5 class="text-light mt-2 ">Campus Life</h5>
+                    <hr class="fthr">
+                    <a href="" class="text-decoration-none d-block mt-4 ">Mandatory Disclosures</a>
+                    <a href="" class="text-decoration-none d-block mt-2">College Level Committees</a>
+                    <a href="" class="text-decoration-none d-block mt-2">College Level Events</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Strategic Plans</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Green Initiatives</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Right to Information (RTI)</a>
+                    <a href="" class="text-decoration-none d-block mt-2">VITS-NSS</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Achievements</a>
+      
+                    <a href="" class="text-decoration-none d-block mt-2">Online Grievance</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Skills Enhancement</a>
+                    <a href="" class="text-decoration-none d-block mt-2">IT Policy</a>
+                    <a href="" class="text-decoration-none d-block mt-2">Innovation & Incubation Center</a>
+                    <a href="" class="text-decoration-none d-block mt-2">I & E Activities
+                    </a>
+                    <a href="" class="text-decoration-none d-block mt-2">Student Registration Form
+                    </a>
+                    <a href="" class="text-decoration-none d-block mt-2">Route Map
+                    </a>
+                </div>
+                <div class=" text-start fotcol col-lg-3 col-sm-12 col-md-4 mt-2">
+                    <h5 class="text-light mt-2 ">Login Links</h5>
+                    <hr class="fthr">
+      
+                    <span class="loglinkmove"> <a href="" class="text-decoration-none d-block mt-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg><span class="ms-2 ">Student counseling Portal</span></a></span>
+                    <hr class="text-light">
+                    <span class="loglinkmove"> <a href="" class="text-decoration-none d-block mt-2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg><span class="ms-2 ">OBE-vmedulife</span></a></span>
+                    <hr class="text-light">
+                    <span class="loglinkmove"> <a href="" class="text-decoration-none d-block mt-2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg><span class="ms-2 ">V-Learn</span></a></span>
+                    <hr class="text-light">
+                    <span class="loglinkmove"> <a href="" class="text-decoration-none d-block mt-2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg><span class="ms-2 ">VIMS-Login</span></a></span>
+                    <hr class="text-light">
+                    <span class="loglinkmove"> <a href="" class="text-decoration-none d-block mt-2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg><span class="ms-2 ">Webmail Login</span></a></span>
+                    <hr class="text-light">
+                </div>
+            </div>
+      
+      
+      
+      
+      
+            <div class="row m-auto py-4 bg-dark bg-gradient mt-4">
+                <div class="col-lg-8 fotcol">
+                    <p class="text-xl-start text-lg-start fw-bold">Copyright All Right Reserved 2023, Vignan Institute of
+                        Technology and Science</p>
+                </div>
+                <div class="col-lg-4 text-xl-end text-lg-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-facebook  footericon " viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+      
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-youtube   footericon ms-2" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram  footericon ms-2" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+      
+                </div>
+            </div>
+      
+        </div>
+      </footer>
+      
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>

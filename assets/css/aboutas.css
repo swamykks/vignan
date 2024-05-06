@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+  background-image:url('/assets/uploads/images/About-us.png');
+  height: 300px;
+}
+ .center{
+    top: 150px;
+ }
+ 
+#hover1:hover{
+    color:  rgb(24, 117, 171);
+}
+.libut button:hover{
+    color: rgb(118, 20, 118);
+}
+#backcolour{
+    background-color:rgb(112, 6, 101);
+}
+#text{
+    color: rgb(153, 46, 153);
+}
+
+/* header */
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+.navbar-collapse>ul>li>a {
+    font-weight: bold;
+}
+
+.navbar-collapse>ul>li>a:hover {
+    border-bottom: 5px solid #933993;
+}
+
+.nav-styling1 {
+    display: none;
+    list-style-type: none;
+}
+
+.nav-styling1:hover {
+    display: block;
+    color: black;
+}
+
+.header-top {
+    background-color: #933993;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1025px) {
+    .btn-close {
+        display: none;
+    }
+
+    .navbar-nav>li>a {
+        font-weight: bold;
+        margin-left: 25px;
+    }
+
+    .navbar-brand>img {
+        margin-left: 100px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .navbar-brand>img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navbar-nav>li>a {
+        font-weight: bold;
+
+    }
+
+    .navbar-collapse>ul>li>a {
+        padding-right: 10px;
+        font-size: smaller;
+    }
+
+    .nav-link>a {
+        padding-right: 10px;
+    }
+
+    .btn-close {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+
+    .header-top {
+        font-size: smaller;
+        display: none;
+    }
+
+}
+
+/* footer */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.fotcol a {
+    color: grey;
+}
+.fotcol a:hover{
+ color: aliceblue;
+}
+.ft-phon:hover{
+    color: aliceblue;
+}
+.ft-emails:hover{
+    color: aliceblue;
+}
+.loglinkmove a:hover{
+    transform: translate(17px, 0px);
+    transition-duration: 600ms;
+}   
+.fthr{
+    color:cyan;
+   border-bottom: 3px solid cyan;}
+.footericon{
+    background-color: cyan;}
+
+
+

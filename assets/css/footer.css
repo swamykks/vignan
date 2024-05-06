@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.fotcol a {
+    color: grey;
+}
+.fotcol a:hover{
+ color: aliceblue;
+}
+.ft-phon:hover{
+    color: aliceblue;
+}
+.ft-emails:hover{
+    color: aliceblue;
+}
+.loglinkmove a:hover{
+    transform: translate(17px, 0px);
+    transition-duration: 600ms;
+}   
+.fthr{
+    color:cyan;
+   border-bottom: 3px solid cyan;}
+.footericon{
+    background-color: cyan;}
